@@ -14,7 +14,7 @@
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 <script type="text/babel">
     function App() {
-        comst [counter,setCounter] = React.useState(0);
+        const [counter,setCounter] = React.useState(0);
         
         const onClick = ()=> {
             setCounter(current =>  current + 1);
